@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lunasima:wght@400;700&family=Maven+Pro:wght@400..900&display=swap');
+/* Estilos gerais do documento */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.secao {
+    padding: 40px 0;
+}
+
+.secao h2 {
+    color: #1e8449; /* Verde para remeter ao campo */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Estilos para a seção de destaque (cores diferentes) */
+.secao.destaque {
+    background-color: #e0f2f7; /* Azul claro para contraste */
+}
+
+.secao.destaque h2 {
+    color: #0277bd; /* Azul mais escuro */
+}
+
+/* Estilos para o cabeçalho */
+#cabecalho {
+    background-image: url(img/pexels-shuaizhi-tian-485596-31958437.jpg);
+    font-family: "Maven Pro", Sans Erif;
+    color: #fff;
+    font-size: 25px;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#cabecalho h1 {
+    margin-bottom: 10px;
+}
+
+#cabecalho p {
+    font-size: 1.1em;
+}
+
+/* Estilos para o menu principal de navegação */
+#menu-principal {
+    background-color: #0e0e0e; /* preto */
+    color: #fff;
+    padding: 15px 0;
+}
+
+#menu-principal .container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#menu-principal .container ul li {
+    margin: 0 15px;
+}
+
+#menu-principal .container ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#menu-principal .container ul li a:hover {
+    background-color: #101110; /* Verde mais claro no hover */
+}
+
+/* Estilos para o conteúdo principal */
+#conteudo-principal {
+    padding-bottom: 40px;
+}
+
+#conteudo-principal ul {
+    list-style: disc;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+#conteudo-principal li strong {
+    font-weight: bold;
+}
+
+/* Estilos para o rodapé */
+#rodape {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9em;
+}
